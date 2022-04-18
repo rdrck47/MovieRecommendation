@@ -13,7 +13,7 @@ import static org.junit.matchers.JUnitMatchers.hasItem;
 public class MovieRecommenderTest {
     @Test
     public void testDataInfo() throws IOException, TasteException {
-        MovieRecommender recommender = new MovieRecommender("/Users/rodrigo.rodriguez/Downloads/movies.txt.gz");
+        MovieRecommender recommender = new MovieRecommender("data/movies.txt.gz");
         assertEquals(7911684, recommender.getTotalReviews());
         assertEquals(253059, recommender.getTotalProducts());
         assertEquals(889176, recommender.getTotalUsers());
