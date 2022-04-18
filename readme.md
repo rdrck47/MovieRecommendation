@@ -14,7 +14,7 @@ This repo contains several common big data exercises.
    
  
 ## How to run tests
-
-    #from the repository root
-    mvn test
- 
+    1. Download file movies.txt.gz(http://snap.stanford.edu/data/web-Movies.html) and move it to the data folder 
+    
+    2. #from the repository root
+        mvn test
