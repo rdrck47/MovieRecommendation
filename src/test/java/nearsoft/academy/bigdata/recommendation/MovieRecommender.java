@@ -22,9 +22,6 @@ public class MovieRecommender {
     HashMap<String, Integer> usersIDStorage = new HashMap<String, Integer>();
     HashMap<String, Integer> productsIDStorage = new HashMap<String, Integer>();
     int totalReviews = 0;
-    //Set productionMode to true if you want to run the test with pre-processed files(movies.csv,productsID.csv,usersID.csv,reviewsNumber.csv)
-    //Set productionMode to false if you want to run the test with the full dataset and build the processed CSV files
-    boolean productionMode = true; 
 
     public MovieRecommender(String filename) throws IOException{    
         //Processing movies.txt.gz for extracting userId,productId,score fields
